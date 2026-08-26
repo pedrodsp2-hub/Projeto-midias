@@ -1,0 +1,33 @@
+body{
+    background-color: #f8d18c;
+}
+.grid{
+    background-color: #f9c771;
+    display: grid;
+    grid-template-rows: 
+    100px, 30px, 1fr,50px;
+    grid-template-areas: 
+    "header"
+    "nav"
+    "main"
+    "footer";
+}
+header{
+    grid-area: header;
+    background-color: #ff000072;
+}
+nav{
+    background-color: #a85d5d;
+    grid-area: nav;
+}
+nav a{
+    text-decoration: none;
+}
+main{
+    grid-area: main;
+    background-color: aquamarine;
+}
+footer{
+    grid-area: footer;
+    background-color: #1d55cd;
+}
